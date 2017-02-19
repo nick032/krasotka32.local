@@ -1,0 +1,1 @@
+krasotka32.local
