@@ -16,6 +16,13 @@ ul {
     display: table;
     clear: both;
 }
+.left {
+    float: left;
+}
+.active {
+    color: #000 !important;
+    text-decoration: underline !important;
+}
 .container {
     width: 1170px;
     padding-right: 15px;
@@ -70,10 +77,12 @@ ul {
     margin-top: 10px;
     background: #ebd2d5;
     padding-top: 100px;
+    text-align: center;
 }
-.section-2 h2 {
-    width: 150px;
+h2 {
+    display: inline-block;
     text-transform: uppercase;
+    font-weight: 100;
     font-size: 30px;
     margin: 0 auto;
     text-align: center;
@@ -81,7 +90,7 @@ ul {
     background: rgba(255, 255, 255, .45);
     border-radius: 10px;
 }
-.section-2 h2:hover {
+h2:hover {
     background: rgba(255, 231, 190, .45);
 }
 .section-2 .services {
@@ -108,4 +117,83 @@ ul {
     color: #000;
     font-size: 24px;
     width: 256px;
+}
+/* section-3 */
+.section-3 {
+    text-align: center;
+    background-color: #eaeac8;;
+    margin-top: 10px;
+    padding: 100px  0 20px;
+}
+.section-3 .c-1 {
+    font-size: 25px;
+    padding-bottom: 25px;
+}
+.section-3 .c-2 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #983d46;
+    font-size: 25px;
+}
+.section-3 .slogan {
+    font-size: 20px;
+    color: #b17d00;
+    margin-bottom: 40px;
+}
+.section-3 .items {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.section-3 .items .item {
+    text-align: center;
+    width: 210px;
+    border: 1px solid #b17d00;
+    border-radius: 10px;
+    padding: 20px;
+    display: inline-block;
+    margin: 0 20px;
+}
+/* section-4 */
+.section-4 {
+    padding: 100px 0 60px;
+    text-align: center;
+}
+.section-4 h2 {
+    background-color: rgba(218, 154, 160, 0.45);
+}
+.section-4 h2:hover {
+    background: rgba(255, 231, 190, .45);
+}
+.section-4 .link {
+    margin: 10px 0 50px;
+    font-size: 18px;
+}
+.section-4 .link a {
+    color: #983d46;
+}
+.section-4 .items .item {
+    display: inline-block;
+}
+footer {
+    margin-top: 10px;
+    background: #ebd2d5;
+    padding: 60px 0 40px;
+    text-align: center;
+}
+footer .contacts {
+    margin-top: 25px;
+}
+footer .mail,
+footer .phone,
+footer .soc-button {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 10px 50px;
+}
+footer .mail {
+   background: url("../img/email_icon_s.png") no-repeat;
+}
+footer .phone {
+    background: url("../img/phone_icon_s.png") 0 50% no-repeat;
+    font-size: 18px;
 }
